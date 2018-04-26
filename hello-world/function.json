@@ -5,6 +5,7 @@
             "type": "httpTrigger",
             "name": "request",
             "direction": "in",
+            "authLevel": "anonymous",
             "dataType": "string"
         },
         {
