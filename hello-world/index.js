@@ -4,5 +4,5 @@ module.exports = function(context, request) {
         status: 200,
         body: 'Hello, world!',
     };
-    context.done(null, response);
+    context.done(null, { response: response });
 };
